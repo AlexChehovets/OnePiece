@@ -38,10 +38,12 @@ namespace One_Piece
 
             if (table.Rows.Count > 0)
             {
-                MessageBox.Show("Так");
+                this.Hide();
+                MainForm mainForm = new MainForm();
+                mainForm.Show();
             }
             else
-                MessageBox.Show("ні");
+                MessageBox.Show("Логін чи пароль не співпадають");
         }
     }
 }
