@@ -66,5 +66,17 @@ namespace One_Piece
             else
                 return false;
         }
+
+        private void userSurnameField_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            login reg = new login();
+            reg.Show();
+            this.Hide(); ;
+        }
     }
 }       

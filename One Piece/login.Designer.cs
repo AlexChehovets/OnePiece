@@ -44,7 +44,7 @@ namespace One_Piece
             // butlog
             // 
             this.butlog.Location = new System.Drawing.Point(148, 315);
-            this.butlog.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.butlog.Margin = new System.Windows.Forms.Padding(7);
             this.butlog.Name = "butlog";
             this.butlog.Size = new System.Drawing.Size(202, 77);
             this.butlog.TabIndex = 0;
@@ -55,7 +55,7 @@ namespace One_Piece
             // passfield
             // 
             this.passfield.Location = new System.Drawing.Point(148, 236);
-            this.passfield.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.passfield.Margin = new System.Windows.Forms.Padding(7);
             this.passfield.Name = "passfield";
             this.passfield.Size = new System.Drawing.Size(249, 34);
             this.passfield.TabIndex = 1;
@@ -64,7 +64,7 @@ namespace One_Piece
             // logfield
             // 
             this.logfield.Location = new System.Drawing.Point(148, 128);
-            this.logfield.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.logfield.Margin = new System.Windows.Forms.Padding(7);
             this.logfield.Name = "logfield";
             this.logfield.Size = new System.Drawing.Size(249, 34);
             this.logfield.TabIndex = 2;
@@ -75,7 +75,7 @@ namespace One_Piece
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(47, 107);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(76, 70);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -86,7 +86,7 @@ namespace One_Piece
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(47, 218);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(76, 70);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -96,10 +96,11 @@ namespace One_Piece
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(161, 34);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 29);
+            this.label1.Size = new System.Drawing.Size(178, 32);
             this.label1.TabIndex = 5;
             this.label1.Text = "Авторизація";
             // 
@@ -128,7 +129,7 @@ namespace One_Piece
             this.Controls.Add(this.butlog);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ForeColor = System.Drawing.Color.Black;
-            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.Margin = new System.Windows.Forms.Padding(7);
             this.MaximizeBox = false;
             this.Name = "login";
             this.Text = "Form1";
