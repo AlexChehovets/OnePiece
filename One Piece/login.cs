@@ -45,5 +45,35 @@ namespace One_Piece
             else
                 MessageBox.Show("Логін чи пароль не співпадають");
         }
+
+        private void login_Load(object sender, EventArgs e)
+        {
+            passfield.PasswordChar = '*';
+        }
+
+        private void passfield_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+
+
+        }
+
+        private void logfield_TextChanged(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void logfield_KeyPress(object sender, KeyPressEventArgs e)
+        {
+           
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Form1 reg = new Form1();
+           reg.Show();
+            this.Hide(); ;
+        }
     }
 }
