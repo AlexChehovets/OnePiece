@@ -46,3 +46,5 @@ D:\4 kurs\командна розробка\One Piece\OnePiece\One Piece\obj\Deb
 D:\4 kurs\командна розробка\One Piece\OnePiece\One Piece\obj\Debug\One Piece.csproj.CopyComplete
 D:\4 kurs\командна розробка\One Piece\OnePiece\One Piece\obj\Debug\One Piece.exe
 D:\4 kurs\командна розробка\One Piece\OnePiece\One Piece\obj\Debug\One Piece.pdb
+D:\4 kurs\командна розробка\One Piece\OnePiece\One Piece\obj\Debug\One_Piece.Form1.resources
+D:\4 kurs\командна розробка\One Piece\OnePiece\One Piece\obj\Debug\One_Piece.MainForm.resources
