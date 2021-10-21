@@ -30,12 +30,39 @@ namespace One_Piece
         }
 
         Human human = null;
+        double vaga, idealmasa = 0, zhurnist = 0, schilnist, headp, chestp, handp, legsp, obem, plozhaofbody, g = 9.8, rist = 0, masa = 0, rec;
+
+        private void ClearButton_Click(object sender, EventArgs e)
+        {
+            VagaTextBox.Text = "";
+            IdealmasaTextBox.Text = "";
+            ZhurnistTextBox.Text = "";
+            SchilnistTextBox.Text = "";
+            ObemTextBox.Text = "";
+            PloshaTextBox.Text = "";
+            GrowTextBox.Text = "";
+            AgeTextBox.Text = "";
+            WeightTextBox.Text = "";
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
+            MenPictureBox.Visible = false;
+            WomenPictureBox.Visible = false;
+            label17.Visible = false;
+            label18.Visible = false;
+            label19.Visible = false;
+            label20.Visible = false;
+            label21.Visible = false;
+            label22.Visible = false;
+            label23.Visible = false;
+            label24.Visible = false;
+        }
+
+        int vik;
 
         public MainForm()
         {
             InitializeComponent();
         }
-        double vaga, idealmasa = 0, zhurnist = 0, schilnist, headp, chestp, handp, legsp, obem, plozhaofbody, g = 9.8, rist = 0, masa = 0, rec; int vik;
 
         private void button2_Click(object sender, EventArgs e)
         {

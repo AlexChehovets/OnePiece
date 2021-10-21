@@ -120,6 +120,7 @@ namespace One_Piece
             this.ClearButton.Size = new System.Drawing.Size(35, 39);
             this.ClearButton.TabIndex = 28;
             this.ClearButton.UseVisualStyleBackColor = false;
+            this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
             // 
             // radioButton2
             // 
