@@ -300,6 +300,7 @@ namespace One_Piece
             this.CloseButton.Size = new System.Drawing.Size(30, 36);
             this.CloseButton.TabIndex = 7;
             this.CloseButton.Text = "x";
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // mainLabel
             // 

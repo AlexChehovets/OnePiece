@@ -48,3 +48,29 @@ D:\4 kurs\командна розробка\One Piece\OnePiece\One Piece\obj\Deb
 D:\4 kurs\командна розробка\One Piece\OnePiece\One Piece\obj\Debug\One Piece.pdb
 D:\4 kurs\командна розробка\One Piece\OnePiece\One Piece\obj\Debug\One_Piece.Form1.resources
 D:\4 kurs\командна розробка\One Piece\OnePiece\One Piece\obj\Debug\One_Piece.MainForm.resources
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\One Piece.exe.config
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\One Piece.exe
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\One Piece.pdb
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\MySql.Data.dll
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\Google.Protobuf.dll
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\Zstandard.Net.dll
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\BouncyCastle.Crypto.dll
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\Ubiety.Dns.Core.dll
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\System.Memory.dll
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\System.Buffers.dll
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\K4os.Compression.LZ4.dll
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\K4os.Hash.xxHash.dll
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\System.Numerics.Vectors.dll
+D:\4 kurs\командна розробка\OnePiece\One Piece\bin\Debug\MySql.Data.xml
+D:\4 kurs\командна розробка\OnePiece\One Piece\obj\Debug\One Piece.csproj.AssemblyReference.cache
+D:\4 kurs\командна розробка\OnePiece\One Piece\obj\Debug\One_Piece.MainForm.resources
+D:\4 kurs\командна розробка\OnePiece\One Piece\obj\Debug\One_Piece.Form1.resources
+D:\4 kurs\командна розробка\OnePiece\One Piece\obj\Debug\One_Piece.login.resources
+D:\4 kurs\командна розробка\OnePiece\One Piece\obj\Debug\One_Piece.Properties.Resources.resources
+D:\4 kurs\командна розробка\OnePiece\One Piece\obj\Debug\One Piece.csproj.GenerateResource.cache
+D:\4 kurs\командна розробка\OnePiece\One Piece\obj\Debug\One Piece.csproj.CoreCompileInputs.cache
+D:\4 kurs\командна розробка\OnePiece\One Piece\obj\Debug\One Piece.csproj.CopyComplete
+D:\4 kurs\командна розробка\OnePiece\One Piece\obj\Debug\One Piece.exe
+D:\4 kurs\командна розробка\OnePiece\One Piece\obj\Debug\One Piece.pdb
