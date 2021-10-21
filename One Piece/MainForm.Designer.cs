@@ -192,6 +192,7 @@ namespace One_Piece
             this.button1.TabIndex = 23;
             this.button1.Text = "Прочитати";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // buttonRegister
             // 
@@ -589,6 +590,7 @@ namespace One_Piece
             this.panel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.panel1.Size = new System.Drawing.Size(957, 734);
             this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label4
             // 
@@ -719,6 +721,7 @@ namespace One_Piece
             this.Controls.Add(this.panel1);
             this.Name = "MainForm";
             this.Text = "MainForm";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.WomenPictureBox)).EndInit();

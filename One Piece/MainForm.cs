@@ -32,6 +32,48 @@ namespace One_Piece
         Human human = null;
         double vaga, idealmasa = 0, zhurnist = 0, schilnist, headp, chestp, handp, legsp, obem, plozhaofbody, g = 9.8, rist = 0, masa = 0, rec;
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BinaryFormatter formatter = new BinaryFormatter();
+            using (FileStream fs = new FileStream("people.dat", FileMode.OpenOrCreate))
+            {
+                Human newPerson = (Human)formatter.Deserialize(fs); ;
+                masa = newPerson.Getmasa();
+                vik = (int)newPerson.Getvik();
+                rist = newPerson.Getrist();
+                AgeTextBox.Text = Convert.ToString(vik);
+                GrowTextBox.Text = Convert.ToString(rist);
+                WeightTextBox.Text = Convert.ToString(masa);
+                button2_Click(sender, e);
+
+            }
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            MenPictureBox.Visible = false;
+            WomenPictureBox.Visible = false;
+            label17.Visible = false;
+            label18.Visible = false;
+            label19.Visible = false;
+            label20.Visible = false;
+            label21.Visible = false;
+            label22.Visible = false;
+            label23.Visible = false;
+            label24.Visible = false;
+            toolTip1.SetToolTip(GrowTextBox, "Введіть ваш ріст\n більше 67см. і менше 272см.");
+            toolTip1.IsBalloon = true;
+            toolTip2.SetToolTip(AgeTextBox, "Введіть ваш вік\n більше 6р. і менше 122р.");
+            toolTip2.IsBalloon = true;
+            toolTip3.SetToolTip(WeightTextBox, "Введіть вашу масу\n більше 20кг. і менше 635кг.");
+            toolTip3.IsBalloon = true;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void ClearButton_Click(object sender, EventArgs e)
         {
             VagaTextBox.Text = "";
@@ -66,31 +108,17 @@ namespace One_Piece
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            if (GrowTextBox.Text == "" || AgeTextBox.Text == "" || WeightTextBox.Text == "" || radioButton1.Checked == false && radioButton2.Checked == false)
+            {
+                MessageBox.Show("Ви не ввели показники", "Похибка");
+            }
+            else
+            {
                 rist = Convert.ToInt32(GrowTextBox.Text);
                 vik = Convert.ToInt32(AgeTextBox.Text);
                 masa = Convert.ToInt32(WeightTextBox.Text);
 
-                if (rist > 272 || masa > 635 || vik > 122)
-                {
-                    MessageBox.Show("Ви ввели надто великі показники", "Похибка");
-                    radioButton1.Checked = false;
-                    radioButton2.Checked = false;
-                    GrowTextBox.Text = "";
-                    AgeTextBox.Text = "";
-                    WeightTextBox.Text = "";
-                    return;
-                }
-                else if (rist < 67 || masa < 20 || vik < 6)
-                {
-                    MessageBox.Show("Ви ввели надто малі показники", "Похибка");
-                    radioButton1.Checked = false;
-                    radioButton2.Checked = false;
-                    GrowTextBox.Text = "";
-                    AgeTextBox.Text = "";
-                    WeightTextBox.Text = "";
-                    return;
-                }
+                
 
                 vaga = masa * g;
 
@@ -169,7 +197,7 @@ namespace One_Piece
                 label24.Visible = true;
 
                 human = new Human(rist, vik, masa);
-            
+            }
         }
 
         private void buttonRegister_Click(object sender, EventArgs e)
