@@ -174,6 +174,7 @@ namespace One_Piece
             this.button2.TabIndex = 24;
             this.button2.Text = "Обрахувати";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -206,6 +207,7 @@ namespace One_Piece
             this.buttonRegister.TabIndex = 22;
             this.buttonRegister.Text = "Записати";
             this.buttonRegister.UseVisualStyleBackColor = false;
+            this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
             // 
             // label6
             // 
