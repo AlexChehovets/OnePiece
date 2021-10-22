@@ -117,8 +117,27 @@ namespace One_Piece
                 rist = Convert.ToInt32(GrowTextBox.Text);
                 vik = Convert.ToInt32(AgeTextBox.Text);
                 masa = Convert.ToInt32(WeightTextBox.Text);
+                if (rist > 272 || masa > 635 || vik > 122)
+                {
+                    MessageBox.Show("Ви ввели надто великі показники", "Похибка");
+                    radioButton1.Checked = false;
+                    radioButton2.Checked = false;
+                    GrowTextBox.Text = "";
+                    AgeTextBox.Text = "";
+                    WeightTextBox.Text = "";
+                    return;
+                }
+                else if (rist < 67 || masa < 20 || vik < 6)
+                {
+                    MessageBox.Show("Ви ввели надто малі показники", "Похибка");
+                    radioButton1.Checked = false;
+                    radioButton2.Checked = false;
+                    GrowTextBox.Text = "";
+                    AgeTextBox.Text = "";
+                    WeightTextBox.Text = "";
+                    return;
+                }
 
-                
 
                 vaga = masa * g;
 
